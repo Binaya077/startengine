@@ -1,7 +1,7 @@
 *{
   margin:0px;
   padding:0px;
-  box-sizing: border-box;
+
 }
   
   .main {
@@ -189,7 +189,9 @@
           margin-left: 10%;
           margin-right: 8%;
           margin-top: 12%;
-          background-color: #FCF9F5;
+          width:80%;
+          
+          /* background-color: #FCF9F5; */
           
       
 
@@ -215,8 +217,9 @@
          .wejust
          {
           margin-left: 0px;
-          margin-top: 50px;
+          margin-top: 0px;
           width: fit-content;
+          
          }
          .official
          {
@@ -385,6 +388,7 @@
           }
        .haveque{
         padding-left: 4%;
+        overflow: hidden;
        }
        .still p
        {
@@ -401,13 +405,13 @@
        }
       
 
-       .sub1
+       /* .sub1
        {
         font-size: 30px;
         padding-left: 3%;
+        overflow: hidden;  
         
-        
-       }
+       }*/
 
        .expsign
        {
@@ -445,11 +449,7 @@
                  {
                   background-color: #F4F4F4;
                  }
-              
-        .getto
-        {
-          margin-left: 20%;
-        }
+       
         .logo img
         {
           height:80px;
@@ -488,17 +488,23 @@
   height:25px;
   margin-left: 2%;
  }
- .logos p{
-           
-        margin-left: 5%;
-        
- }
+
 
  .logos{
   margin-top: 4%;
   display: flex;
   background-color: #F4F4F4;
 
+ }
+ .logos a
+ {
+    
+    margin-left: 5%;
+    
+ }
+ .logicon{
+  display: flex;
+  margin-left:5% ;
  }
  .message
  {
@@ -615,26 +621,81 @@
 }
 @media only screen and (max-width: 600px) {
 
-  .nextdown
+
+  .main_class
   {
-    display: flex;
-    width:max-content;
-    justify-content: space-between;
+    display:flex;
+    flex-direction: column-reverse;
+    
+    
+    
+  }
+  
+
+  .middle
+  {
+    margin:4% auto;
+    
+  }
+
+.hel{
+  width:100%;
+  height:80%;
+}
+  .down{ 
+
+    overflow-x: scroll;
+    
+  }  
+
+  .flex2
+  {
+    display: block;
   }
   .mostdown
   {
          display:flex;
-         width:max-content;
-         margin-left: 40%;
+         flex-direction: column;     
 
   }
+  .startupinvest
+  {
+    overflow: hidden;
+    width: 100%;
+  }
+  .investon
+  {
+    overflow: hidden;
+    width: 100%;
+  }
+
   .lastdown
   {
-    display:flex;
-         width:max-content;
-         margin-left: 20%;
+    
+    display: block;
+   width: 92%;
+    height: 100%;
 
   }
+  .forimage img
+  {
+    height:250px;
+    width: 200px;
+  }
+  .forimage{
+
+    margin-left: 8%;
+    
+    
+  }
+  .still{
+  
+    width: 100%;
+    
+    
+  }
+ 
+ 
   .expsign
   {
     
@@ -642,16 +703,37 @@
         
   }
 
-  .appstore
-  {
-    margin-left:50%;
-    width: max-content;
-  }
+   .sub1
+   {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+   }
+
   .message
   {
-    text-align: center;
+    
     width: 80%;
-    margin: 0 auto;
+    
+    
     
   }
+  .logos{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+  }
+  .logos a
+  {
+    margin-left: 1%;
+  }
+.logicon
+{
+  display: flex;
+  justify-content: center;
+}
+ 
+ 
 }
