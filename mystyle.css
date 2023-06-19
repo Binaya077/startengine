@@ -638,6 +638,7 @@
     margin-top: 20px;
    
   }
+  
   .dropdown
   {
     display: none;
@@ -697,7 +698,7 @@
   .forimage img
   {
     height:350px;
-    width: 350px;
+    width: 280px;
     margin: auto;
     
   }
