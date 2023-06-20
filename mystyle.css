@@ -630,10 +630,14 @@
   {
     display:flex;
     flex-direction: column-reverse;
-   
-    
+    width: 130%;
   }
+     .nextdown
+     {
+        width:130%;
+     }
 
+    
 .main{
   height:5%;
 }
@@ -641,6 +645,8 @@
   {
     display:block;
     margin-top: 20px;
+    
+    
    
   }
   
@@ -680,11 +686,16 @@
   .flex2
   {
     display: block;
+    
   }
   .mostdown
   {
          display:flex;
-         flex-direction: column;     
+         flex-direction: column;    
+         margin-left:10%;
+         width:130%;
+        
+          
 
   }
   .startupinvest
@@ -696,13 +707,15 @@
   {
     overflow: hidden;
     width: 100%;
+    
+    
   }
 
   .lastdown
   {
     
     display: block;
-    width: 92%;
+    width: 140%;
   
 
   }
@@ -724,7 +737,7 @@
   
     
     margin:5px auto;
-    width: 100%;
+    width:100%
   
     
     
@@ -749,8 +762,9 @@
   .message
   {
     
-    width:80%;
-    margin: 1% auto;
+    text-align: center;
+    width:100%;
+    margin-left: 20%;
     
     
     
