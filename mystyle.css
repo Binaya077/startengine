@@ -1,535 +1,392 @@
-*{
-  margin:0px;
-  padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
+} 
 
+.main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-style: solid;
+  height: 20px;
+  border-bottom: 30px;
+  background-color: #185c65;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
-  
-  .main {
-    position: fixed;
-    top:0;
-    width: 100%;
-    border-style: solid;
-    height:20px;
-    border-bottom: 30px;
-    background-color:#185C65;
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-  }
 
-  div a {
-    text-decoration: none;
-  }
-  .invest
-  {
-    color:black;
-    background-color: white;
-    border-radius: 25px;
-    height: 20px;
-    border:2px white;
-    font-weight: bold;
-    padding:1px;
-    
-    
-  }
+div a {
+  text-decoration: none;
+}
+.invest {
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  height: 20px;
+  border: 2px white;
+  font-weight: bold;
+  padding: 1px;
+}
 
-  .top {
+.top {
+  display: flex;
+  border-style: solid;
+  border: none;
+  padding: 10px;
+  height: 60px;
+  border-bottom-right-radius: 50px 30px;
+  border-bottom-left-radius: 50px 30px;
+  background-color: #e9e9e9;
+  overflow: hidden;
+}
+.texxt {
+  padding-bottom: 12%;
+}
+.tripledot {
+  color: #2b303a;
+  display: none;
+}
 
-    display: flex;
-    border-style: solid;
-    border: none;
-    padding: 10px;
-    height: 60px;
-    border-bottom-right-radius: 50px 30px;
-    border-bottom-left-radius: 50px 30px;
-    background-color: #e9e9e9;
-    overflow: hidden;
-  }
-  .texxt
-  {
-   
-   padding-bottom:12%;
-  }
-  .tripledot
-  {
-      color: #2B303A;
-      display: none;
-      
-  }
-  
-  
- /* .top a {
-    margin-right: 12px;
-    margin-top: 5px;
-    float: left;
-    display: block;
-    color:#2B303A;
-    text-align: center;
-    padding: 12px 16px;
-    text-decoration: none;
-    border-bottom: 3px teal;
-    font-weight: bold;
-    font-size: 15px;
-    
-    
-  }*/
-  .buttons{
-    
-    width: fit-content;
-    
-
-  }
-  .log{
-    margin-left: 5%;
-    margin-top: 0.5%;
-    
-  }
-
-
-  .buttons
-  {
-  
-    border: 2px aqua;
-    padding-left: 1%; 
-  }
-
-  input[type=text] {
-    height:40px;
-    width: 320px;
-    border-radius: 25px;
-    border: 2px solid white;
-    margin-left: 15px;
-    margin-top: 8px;
-    margin-right: 16px;
-    padding: 6px;
-  }
-  .middle {
-    border: none;
-    width:fit-content;
-    background-color:#185C65;;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-left:10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin: 30px auto 30px 0px;
-    
-    
-  }
-  .middle a {
-    text-decoration: none;
-    
-  }
-  
-        .down
-        {
-   
-          border-style: solid;
-          border: none;
-          padding:0px;
-          box-sizing: border-box;
-          background-color: #fDfDfB;
-          margin-left: 10%;
-          margin-right: 8%;
-          margin-top: 4%;
-          
-
-        }
-         .motorsome 
-         {
-              color:black;
-              font-size: large;
-              font-weight: bold;
-         }
-         .carimage p{
-
-              color:dimgray; 
-              font-size: small;
-              
-         }
-   
-         .start
-         {
-          color:black;
-          font-size: large;
-          font-weight: bold;
-         }
-
-
-
-         .person p{
-                  
-          color:dimgray; 
-          font-size: small;
-          
-
-         }
-         .plast
-         {
-          color:black;
-          font-size: large;
-          font-weight: bold;
-         }
-      
-         
-         .time p
-         {
-          color:dimgray; 
-          font-size: small;
-
-         }
-
-         .d-flex {
-          display: flex;
-          justify-content: space-between;
-          
-         } 
-
-         .d-flex1 {
-          display: flex;
-          justify-content: space-between;
-          
-         } 
-
-         .momentum-img {
-          width: 300px;
-          height: 200px;
-         }
-    
-         .main_class
-         {
-          display:flex;
-          margin-left: 10%;
-          margin-right: 8%;
-          margin-top: 12%;
-          width:80%;
-          
-          /* background-color: #FCF9F5; */
-          
-      
-
-         }
-         .main_image
-         {
-          display:flex;
-          width: fit-content;
-          margin:80px 0px 15px 25px
-          
-          
-         }
-       
-
-        
-
-         .hel{
-          width:450px;
-          height:400px;
-          
-        
-         }
-         .wejust
-         {
-          margin-left: 0px;
-          margin-top: 0px;
-          width: fit-content;
-          
-         }
-         .official
-         {
-          
-          color:#565656;
-          font-weight: bold;
-          font-size: large;
-          width: fit-content;
-        
-          
-          
-          
-         }
-         .Reg{
-              
-          
-          color:#999999;
-          width: fit-content;
-           
-         }
-         .value
-         {
-          display: flex;
-          justify-content: space-between;
-         }
-         
-          .gap
-          {
-            margin:40px auto;
-          }
-          .exp
-          {
-            width:fit-content;
-            margin:30px auto 30px auto;
-            background-color: teal;
-            border-radius: 25px;
-            height: 50px;
-            
-          }
-          .explorebutton
-          {
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 15px;
-           
-            
-          }
-          .explorebutton a{
-
-              color:white;
-          }
-          .nextdown
-          {
-            margin-left: 10%;
-            margin-right: 8%;
-            margin-top: 4%;
-            
-            
-          }
-          .howtoindiv{
-            display: flex;
-          }
-          .howtoin
-          {
-            margin-left: -80px;
-            margin-top:5%;
-            width: fit-content;
-            font-size: 24px ;
-            
-          }
-          .howtoindiv img{
-            height:125px;
-            width:130px;
-          }
-          .flex2
-          {
-            display: flex;
-            justify-content:space-around;
-            margin-top: 2%;
-            
-          
-          }
-          .mostdown
-          {
-           
-           display:flex;
-           gap:2%;
-            margin-left: 3%;
-            margin-right: 3%;
-            margin-top: 4%;
-            
-          }
-     
-          .startupinvest
-          {
-        
-            width:50%;
-            background-image: url("bezoz.jfif");
-            background-repeat: no-repeat;
-            background-position:right;
-            background-size:55%;
-          
-          }
-          .investin_startup
-          {
-            margin:70px 40px;
-            color:#2B303A;
-            
-          }
-          
-          .investon
-          {
-            width:50%;
-            background-image: url("moile.png");
-            background-repeat: no-repeat;
-            background-position:40% 100%;
-            background-size:45%;
-
-            background-repeat: no-repeat;
-          }
-    
-          .investonapp
-          {
-            margin:70px 40px;
-            color:#2B303A;
-            
-          }
-          .expnow
-          {
-            
-          
-            width:fit-content;
-            margin-left: 18px;
-            background-color: teal;
-            border-radius: 25px;
-            height: 50px;
-            
-          }
-          .lastdown
-          {
-            display: flex;
-            margin-left: 7%;
-            margin-right: 10%;
-            margin-top: 5%;
-            background-color: #f4f4f4;
-          }
-          .forimage
-          {
-            margin-top: 10%;
-            width:50%;
-            
-            
-          }
-      
-          .still
-          {
-            margin-top: 5%;
-            margin-right: 7%;
-            width: 50%;
-           
-          }
-          .lastdown img{
-                  
-            height:80%;
-            margin-left:25%;
-          }
-       .haveque{
-        padding-left: 4%;
-        overflow: hidden;
-       }
-       .still p
-       {
-        margin-top: 1%;
-        padding-left:3%;
-        font-size:25px;
-       }
-    
-       .how{
-        height: 10%;
-       }
-    
-
-       .expsign
-       {
-        width:fit-content;
-        margin:30px auto 30px auto;
-        background-color: teal;
-        border-radius: 25px;
-        height: 50px;
-       }
-       .explorebuttom
-       {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 15px;
-        
-       }
-       .explorebuttom a{
-        color: white;
-       }
-       .subapp
-       {
-        margin:0% 8% 0% 8%;
-        background-color: #FFFFFF40;
-      
-       }
-                .sub1{
-                  display:flex;
-                  gap:5%;
-                  background-color:#F4F4F4;
-                
-                  
-                  
-                 }
-                 .appstore
-                 {
-                  background-color: #F4F4F4;
-                 }
-       
-        .logo img
-        {
-          height:80px;
-          width:140px;
-        }
-        .apple img{
-          
-          margin-top: 5px;
-          height:50px;
-          width:150px;
-        }
-        .logo{
-           
-          margin:5%;
-        }
-      .logo p{
-        margin:4% auto;
-      }
- .facebook
- {
-  height:25px;
+.buttons {
+  width: fit-content;
+}
+.log {
   margin-left: 5%;
- }
- .twitter
- {
-  height:25px;
-  margin-left: 2%;
- }
- .linktin
- {
-  height:25px;
-  margin-left: 2%;
- }
- .instagram
- {
-  height:25px;
-  margin-left: 2%;
- }
+  margin-top: 0.5%;
+}
 
+.buttons {
+  border: 2px aqua;
+  padding-left: 1%;
+}
 
- .logos{
+input[type="text"] {
+  height: 40px;
+  width: 320px;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-right: 16px;
+  padding: 6px;
+}
+.middle {
+  border: none;
+  width: fit-content;
+  background-color: #185c65;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin: 30px auto 30px 0px;
+}
+.middle a {
+  text-decoration: none;
+}
+
+.down {
+  border-style: solid;
+  border: none;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #fdfdfb;
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-top: 4%;
+}
+.motorsome {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+.carimage p {
+  color: dimgray;
+  font-size: small;
+}
+
+.start {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.person p {
+  color: dimgray;
+  font-size: small;
+}
+.plast {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.time p {
+  color: dimgray;
+  font-size: small;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.momentum-img {
+  width: 300px;
+  height: 200px;
+}
+
+.main_class {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-top: 12%;
+  width: 80%;
+
+  /* background-color: #FCF9F5; */
+}
+.main_image {
+  display: flex;
+  width: fit-content;
+  margin: 80px 0px 15px 25px;
+}
+
+.hel {
+  width: 450px;
+  height: 400px;
+}
+.wejust {
+  margin-left: 0px;
+  margin-top: 0px;
+  width: fit-content;
+}
+.official {
+  color: #565656;
+  font-weight: bold;
+  font-size: large;
+  width: fit-content;
+}
+.Reg {
+  color: #999999;
+  width: fit-content;
+}
+.value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gap {
+  margin: 40px auto;
+}
+.exp {
+  width: fit-content;
+  margin: 30px auto 30px auto;
+  background-color: teal;
+  border-radius: 25px;
+  height: 50px;
+}
+.explorebutton {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+.explorebutton a {
+  color: white;
+}
+.nextdown {
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-top: 4%;
+}
+.howtoindiv {
+  display: flex;
+}
+.howtoin {
+  margin-left: -80px;
+  margin-top: 5%;
+  width: fit-content;
+  font-size: 24px;
+}
+.howtoindiv img {
+  height: 125px;
+  width: 130px;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.mostdown {
+  display: flex;
+  gap: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 4%;
+}
+
+.startupinvest {
+  width: 50%;
+  background-image: url("bezoz.jfif");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 55%;
+}
+.investin_startup {
+  margin: 70px 40px;
+  color: #2b303a;
+}
+
+.investon {
+  width: 50%;
+  background-image: url("moile.png");
+  background-repeat: no-repeat;
+  background-position: 40% 100%;
+  background-size: 45%;
+
+  background-repeat: no-repeat;
+}
+
+.investonapp {
+  margin: 70px 40px;
+  color: #2b303a;
+}
+.expnow {
+  width: fit-content;
+  margin-left: 18px;
+  background-color: teal;
+  border-radius: 25px;
+  height: 50px;
+}
+.lastdown {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 10%;
+  margin-top: 5%;
+  background-color: #f4f4f4;
+}
+.forimage {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.still {
+  margin-top: 5%;
+  margin-right: 7%;
+  width: 50%;
+}
+.lastdown img {
+  height: 80%;
+  margin-left: 25%;
+}
+.haveque {
+  padding-left: 4%;
+  overflow: hidden;
+}
+.still p {
+  margin-top: 1%;
+  padding-left: 3%;
+  font-size: 25px;
+}
+
+.how {
+  height: 10%;
+}
+
+.expsign {
+  width: fit-content;
+  margin: 30px auto 30px auto;
+  background-color: teal;
+  border-radius: 25px;
+  height: 50px;
+}
+.explorebuttom {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+.explorebuttom a {
+  color: white;
+}
+.subapp {
+  margin: 0% 8% 0% 8%;
+  background-color: #ffffff40;
+}
+.sub1 {
+  display: flex;
+  gap: 5%;
+  background-color: #f4f4f4;
+}
+.appstore {
+  background-color: #f4f4f4;
+}
+
+.logo img {
+  height: 80px;
+  width: 140px;
+}
+.apple img {
+  margin-top: 5px;
+  height: 50px;
+  width: 150px;
+}
+.logo {
+  margin: 5%;
+}
+.logo p {
+  margin: 4% auto;
+}
+.facebook {
+  height: 25px;
+  margin-left: 5%;
+}
+.twitter {
+  height: 25px;
+  margin-left: 2%;
+}
+.linktin {
+  height: 25px;
+  margin-left: 2%;
+}
+.instagram {
+  height: 25px;
+  margin-left: 2%;
+}
+
+.logos {
   margin-top: 4%;
   display: flex;
-  background-color: #F4F4F4;
-
- }
- .logos a
- {
-    
-    margin-left: 5%;
-    
- }
- .logicon{
+  background-color: #f4f4f4;
+}
+.logos a {
+  margin-left: 5%;
+}
+.logicon {
   display: flex;
-  margin-left:5% ;
- }
- .message
- {
+  margin-left: 5%;
+}
+.message {
   margin-top: 4%;
   margin-left: 2%;
   margin-right: 1%;
-
- }
-.para2{
-  margin-top:2%;
 }
-.para1
-{
-  margin-top:0.5%;
+.para2 {
+  margin-top: 2%;
 }
-
+.para1 {
+  margin-top: 0.5%;
+}
 
 .navbar {
   overflow: hidden;
   background-color: #e9e9e9;
   width: 100%;
-  
-  
+  display: flex;
 }
 
 .navbar a {
@@ -539,27 +396,22 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: #2B303A;
+  color: #2b303a;
 }
 
 .dropdown {
-
   float: left;
   overflow: hidden;
   margin-right: 12px;
   margin-top: 5px;
-
-  
- 
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-  border-bottom: 3px solid #01D1B8;
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  border-bottom: 3px solid #01d1b8;
 }
-
 
 .dropdown .dropbtn {
-  
-  font-size: 16px; 
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -567,10 +419,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  
 }
-
-
 
 .dropdown-content {
   border-radius: 25px;
@@ -579,7 +428,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -590,8 +439,6 @@
   text-decoration: none;
   display: block;
   text-align: left;
-
-  
 }
 
 .dropdown-content a:hover {
@@ -604,190 +451,139 @@
   display: block;
 }
 
-.navpar{
+.navpar {
   border-radius: 15px;
-  
-  color:black;
 
+  color: black;
 }
-.que{
+.que {
   width: fit-content;
-  float:right;
-  
+  float: right;
 }
-.ques
-{
+.ques {
   width: fit-content;
   float: right;
   margin-left: 12px;
 }
 
-
 @media only screen and (max-width: 600px) {
+  .tripledot {
+    display: block;
+    margin-top: 3%;
+    
+  }
+  .navbar {
+    position: absolute;
+    top: 110px;
+    flex-direction: column;
+    display: none;
+    
+  }
+  .navbar.active {
+    display: flex; 
+    border-radius: 25px;
+    width: 50%;
+    right: 0;
+    
 
-
-  .main_class
-  {
-    display:flex;
+    
+    
+  }
+  .main_class {
+    display: flex;
     flex-direction: column-reverse;
+    width:fit-content;
+  }
+  .nextdown {
     width: 130%;
   }
-     .nextdown
-     {
-        width:130%;
-     }
 
-    
-.main{
-  height:5%;
-}
-  .tripledot
-  {
-    display:block;
-    margin-top: 20px;
-    
-    
-   
-  }
-  
-  .dropdown
-  {
-    display: none;
-  }
-  
-  
-  .middle
-  {
-    margin:4% auto;
-    
+  .main {
+    height: 5%;
   }
 
-.hel{
-  width:100%;
-  height:60%;
-}
-.down{
-  width:140%;
-}
-
-
-  .d-flex{ 
-
-    overflow-x: scroll;
-    
-    
-    
-  }  
-  .d-flex1
-  {
-    overflow-x:scroll;
+  .middle {
+    margin: 4% auto;
   }
 
-  .flex2
-  {
-    display: block;
-    
-  }
-  .mostdown
-  {
-         display:flex;
-         flex-direction: column;    
-         margin-left:10%;
-         width:130%;
-        
-          
-
-  }
-  .startupinvest
-  {
-    overflow: hidden;
+  .hel {
     width: 100%;
+    height: 60%;
   }
-  .investon
-  {
-    overflow: hidden;
-    width: 100%;
-    
-    
-  }
-
-  .lastdown
-  {
-    
-    display: block;
+  .down {
     width: 140%;
-  
-
-  }
-  .forimage img
-  {
-    height:350px;
-    width: 250px;
-    margin: auto;
-    
-  }
-  .forimage{
-
-    margin:auto;
-    width:100%;
-    
-    
-  }
-  .still{
-  
-    
-    margin:5px auto;
-    width:100%
-  
-    
-    
-  }
- 
- 
-  .expsign
-  {
-    
-         margin: 0 auto;
-        
   }
 
-   .sub1
-   {
+  .d-flex {
+    overflow-x: scroll;
+  }
+  .d-flex1 {
+    overflow-x: scroll;
+  }
+
+  .flex2 {
     display: block;
-    width: 100%;
-    overflow:hidden;
- 
-   }
-
-  .message
-  {
-    
-    text-align: center;
-    width:100%;
-    margin-left: 20%;
-    
-    
-    
   }
-  .logos{
+  .mostdown {
     display: flex;
     flex-direction: column;
-    
-    
-    
+    margin-left: 10%;
+    width: 130%;
   }
-  .logos a
-  {
+  .startupinvest {
+    overflow: hidden;
+    width: 100%;
+  }
+  .investon {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .lastdown {
+    display: block;
+    width: 140%;
+  }
+  .forimage img {
+    height: 350px;
+    width: 250px;
+    margin: auto;
+  }
+  .forimage {
+    margin: auto;
+    width: 100%;
+  }
+  .still {
+    margin: 5px auto;
+    width: 100%;
+  }
+
+  .expsign {
+    margin: 0 auto;
+  }
+
+  .sub1 {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .message {
+    text-align: center;
+    width: 100%;
+    margin-left: 20%;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+  }
+  .logos a {
     margin-left: 0.5%;
   }
-.logicon
-{
-  display: flex;
-  justify-content: center;
-}
- .appstore
- {
-  width:150%;
- }
- 
+  .logicon {
+    display: flex;
+    justify-content: center;
+  }
+  .appstore {
+    width: 150%;
+  }
 }

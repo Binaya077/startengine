@@ -7,99 +7,85 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="myscript.js" defer></script>
   </head>
   <body>
-     <div class="main"> 
+    <div class="main"> 
       <p style="font-size: 16px IBM Plex Sans; font-weight: bolder;">
         Upto to 700k new user now on StartEngine.
         Invest in StartEngine
       </p>
-    
-
-     <div class="top"> 
-      
+      <div class="top"> 
         <div class="log">
-        <img src="log.png">
-      </div>
-     <input type="text" placeholder="Explore Investment" />
-    
-    
-    
-           
-      <div class="navbar">
-        <div class="tripledot">
-          <i class="fa-solid fa-bars"></i>
-          </div>
-        <div class="dropdown">
-        
-          <button class="dropbtn" style="color:#2B303A; font-weight: bold;
-          font-size: 15px;">Start Investing
-                
-          </button>
-          <div class="dropdown-content">
-            <div class="droprect">
-            <a href="#"><div class="ques"><i class="fa-solid fa-tree"></i></div>Startup Investing</a>
-            <div class=navpar><p>Invest in early stage startUps and Companies</p></div>
-            <a href="#"><div class="ques"><i class="fa-solid fa-circle-notch"></i></div>collectibles</a>
-            <div class=navpar><p style="margin-left: 15%;">Invest in rare/popular items ranging from cpmic books, art and wine</p></div>
-            <a href="#"><div class="ques"><i class="fa-solid fa-car-side"></i></div>Trade</a>
-            <div class=navpar><p style="margin-left: 4%;">Buy/Sells shares of Companies and Collectibles</p></div>
+          <img src="log.png">
+        </div>
+        <input type="text" placeholder="Explore Investment" />
+        <div class="tripledot" id="tripledot">
+          <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="navbar" id="navbar">
+          <div class="dropdown">
+            <button class="dropbtn" style="color:#2B303A; font-weight: bold;
+            font-size: 15px;">Start Investing</button>
+            <div class="dropdown-content">
+              <div class="droprect">
+              <a href="#"><div class="ques"><i class="fa-solid fa-tree"></i></div>Startup Investing</a>
+              <div class=navpar><p>Invest in early stage startUps and Companies</p></div>
+              <a href="#"><div class="ques"><i class="fa-solid fa-circle-notch"></i></div>collectibles</a>
+              <div class=navpar><p style="margin-left: 15%;">Invest in rare/popular items ranging from cpmic books, art and wine</p></div>
+              <a href="#"><div class="ques"><i class="fa-solid fa-car-side"></i></div>Trade</a>
+              <div class=navpar><p style="margin-left: 4%;">Buy/Sells shares of Companies and Collectibles</p></div>
+              </div>
             </div>
-          </div>
-        </div> 
-        <div class="dropdown">
-          <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
-          font-size: 15px;">Learn
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
+            font-size: 15px;">Learn
+              
+            </button>
+            <div class="dropdown-content">
+              <div class="droprect">
+              <a href="#"><div class="ques"><i class="fa-regular fa-pen-to-square"></i></div>Blogs </a>
+              <a href="#"><div class="que"><i class="fa-solid fa-question"></i></div>Investor FAQS</a>
             
-          </button>
-          <div class="dropdown-content">
-            <div class="droprect">
-            <a href="#"><div class="ques"><i class="fa-regular fa-pen-to-square"></i></div>Blogs </a>
-            <a href="#"><div class="que"><i class="fa-solid fa-question"></i></div>Investor FAQS</a>
-           
-            <a href="#"><div class="ques"><i class="fa-solid fa-camera-retro"></i></div>Refer a founder, earn $10k</a>
-            <a href="#"><div class="ques"><i class="fa-solid fa-angles-up"></i></div>Success Stories</a>
+              <a href="#"><div class="ques"><i class="fa-solid fa-camera-retro"></i></div>Refer a founder, earn $10k</a>
+              <a href="#"><div class="ques"><i class="fa-solid fa-angles-up"></i></div>Success Stories</a>
+            </div>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
+            font-size: 15px;">Earn Bonus Shares
+      
+            </button>
+            <div class="dropdown-content">
+              <div class="droprect">
+              <a href="#"><div class="ques"><i class="fa-solid fa-bolt"></i></div>Get 10% Bonus Shares</a>
+              <a href="#"><div class="ques"><i class="fa-solid fa-gift"></i></div>Refer Investor:Earn share of Start Engine</a>
+            </div>
+        </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
+            font-size: 15px;">Raise Capital</button>
           </div>
+          <div class="dropdown">
+            <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
+            font-size: 15px;">Log In</button>
           </div>
-        </div> 
-        <div class="dropdown">
-          <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
-          font-size: 15px;">Earn Bonus Shares
-    
-          </button>
-          <div class="dropdown-content">
-            <div class="droprect">
-            <a href="#"><div class="ques"><i class="fa-solid fa-bolt"></i></div>Get 10% Bonus Shares</a>
-            <a href="#"><div class="ques"><i class="fa-solid fa-gift"></i></div>Refer Investor:Earn share of Start Engine</a>
+          <div class="dropdown">
+            <button class="buttons"><a style="background-color:#01D1B8 ;color:#FDFDFB"href="#">Sign Up</a></button>
           </div>
-      </div>
-        </div> 
-        <div class="dropdown">
-          <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
-          font-size: 15px;">Raise Capital
-    
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn"  style="color:#2B303A;font-weight: bold;
-        font-size: 15px;">Log In
-  
-    </div>
-    
-
-    <div class="dropdown">
-      <button class="buttons"><a style="background-color:#01D1B8 ;color:#FDFDFB"href="#">Sign Up</a></button>
+        </div>
       </div>
     </div>
-    </div>
-    </div>
-    </div>
-    
   
     <div class="main_class">
       <div class="wejust">
         <h1 class="first" style="font: 60px IBM Plex Sans">
           WE JUST<br />
           BOUGHT SEEDINVEST
+          
         </h1>
 
         <div class="official" style="color: #565656; font: 18px IBM Plex Sans">
@@ -434,6 +420,7 @@
           </div>
         </div>
 
+      
         <!--last down-->
         <div class="lastdown">
           <div class="forimage">
