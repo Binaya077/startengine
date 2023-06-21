@@ -15,6 +15,30 @@
   color: white;
   padding-top: 10px;
 }
+@media only screen and (max-width: 400px) {
+  .main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-style: solid;
+    height: 20px;
+    border-bottom: 30px;
+    background-color: #185c65;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+  }
+  .main_class {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-top: 12%;
+    width: 140%;
+  
+    /* background-color: #FCF9F5; */
+  }
+
+  }
 
 div a {
   text-decoration: none;
@@ -500,6 +524,7 @@ input[type="text"] {
 
   .main {
     height: 5%;
+    
   }
 
   .middle {
